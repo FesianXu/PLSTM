@@ -5,7 +5,7 @@ __author__ = 'FesianXu'
 __date__ = 2018 / 3 / 19
 __version__ = ''
 
-import networks.PA_LSTM.PartAwareLSTMCell as PartAwareLSTMCell
+import PartAwareLSTMCell as PartAwareLSTMCell
 import tensorflow as tf
 import os
 import pandas as pd

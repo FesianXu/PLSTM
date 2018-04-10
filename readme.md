@@ -6,5 +6,12 @@ Comparing with the normal lstm cell, it is not difficult to find that plstm has 
 
 It is inspired. So let us implement it in TensorFlow. 
 
+Folder `network` includes three files, `PartAwareLSTMCell.py`,`DataLoader.py` and `PLSTM.py`. 
+1. `PartAwareLSTMCell.py` is the Part-Aware LSTM cell.
+2. `DataLoader.py` is the data loader used to load and preprocess the skeleton datas. Note that all skeleton data are formatted like **Array [Number_clips, {'mat':data, 'view': v, 'class':c, 'actor':a}]  data with shape of [Frames, 25, 3]**
+3. `PLSTM.py` is the main train and evaluation entry.
+
+Folder `utils` include one file, `gendata.py` which uses to generate the formatted data in numpy arrays. Note that all raw skeleton is stored in txt file and i transform them to mat file in MATLAB and i also save the (x,y,z) information.
+
 
 [plstm]: ./imgs/plstm.png
