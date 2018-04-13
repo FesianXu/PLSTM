@@ -13,5 +13,7 @@ Folder `network` includes three files, `PartAwareLSTMCell.py`,`DataLoader.py` an
 
 Folder `utils` include one file, `gendata.py` which uses to generate the formatted data in numpy arrays. Note that all raw skeleton is stored in txt file and i transform them to mat file in MATLAB and i also save the (x,y,z) information.
 
+## update
+**13/4/2018**, add a jupyter notebook script in `app` folder used for training and evaluation. The code has not clear yet but could be a reference.
 
 [plstm]: ./imgs/plstm.png
