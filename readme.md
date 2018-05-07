@@ -17,4 +17,8 @@ Folder `utils` include one file, `gendata.py` which uses to generate the formatt
 **13/4/2018**, add a jupyter notebook script in `app` folder used for training and evaluation. The code has not clear yet but could be a reference.
 
 **7/5/2018**, add a .mat file sample in `datas` folder to give a typical example of the .mat data formation.
+
+
+
+
 [plstm]: ./imgs/plstm.png
