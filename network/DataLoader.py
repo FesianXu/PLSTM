@@ -39,7 +39,7 @@ class DataLoader(object):
     self.lstm_time_step = lstm_tim_step
 
     if self.__skel_train_dataset is not None:
-      self.train_index = range(self.__skel_train_dataset.shape[0])
+      self.train_index = list(range(self.__skel_train_dataset.shape[0]))
       random.shuffle(self.train_index)
       self.__skel_train_dataset = self.__skel_train_dataset[self.train_index]
 
