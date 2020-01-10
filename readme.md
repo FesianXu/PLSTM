@@ -14,11 +14,23 @@ Folder `network` includes three files, `PartAwareLSTMCell.py`,`DataLoader.py` an
 Folder `utils` include one file, `gendata.py` which uses to generate the formatted data in numpy arrays. Note that all raw skeleton is stored in txt file and i transform them to mat file in MATLAB and i only save the (x,y,z) information.
 
 ## update
-**13/4/2018**, add a jupyter notebook script in `app` folder used for training and evaluation. The code has not clear yet but could be a reference.
+**2018 4.13**, add a jupyter notebook script in `app` folder used for training and evaluation. The code has not clear yet but could be a reference.
 
-**7/5/2018**, add a .mat file sample in `datas` folder to give a typical example of the .mat data formation.
+**2018 5.7**, add a .mat file sample in `datas` folder to give a typical example of the .mat data formation.
+
+**2020 1.11**, add the NTU RGBD 120 skeleton data parser with python in folder `ntu_rgbd_parser`, for more detail, go to my another repository [2].
 
 
 
 
 [plstm]: ./imgs/plstm.png
+
+
+
+# Reference
+
+[1].  Shahroudy A, Liu J, Ng T T, et al. Ntu rgb+ d: A large scale dataset for 3d human activity analysis[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016: 1010-1019. 
+
+[2].  https://github.com/FesianXu/NTU_RGBD120_Parser_python 
+
+[3].  Liu J, Shahroudy A, Perez M L, et al. NTU RGB+ D 120: A Large-Scale Benchmark for 3D Human Activity Understanding[J]. IEEE transactions on pattern analysis and machine intelligence, 2019. 
